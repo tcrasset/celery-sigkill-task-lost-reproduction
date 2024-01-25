@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "celery-test"
+version = "0.1.0"
+description = ""
+authors = ["Tom Crasset <25140344+tcrasset@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+celery = "^5.3.4"
+redis = "^5.0.1"
+psutil = "^5.9.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
